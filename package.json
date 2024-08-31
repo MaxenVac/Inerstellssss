@@ -8,7 +8,6 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "webpack --config webpack.config.js",
     "format": "biome format --write .",
     "precommit": "biome check --write .",
     "lint": "biome lint --write ."
